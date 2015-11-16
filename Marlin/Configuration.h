@@ -179,9 +179,9 @@
   #define K1 0.95 //smoothing factor within the PID
 
 // AnUBIS Hotend PID
-    #define  DEFAULT_Kp 26.70
-    #define  DEFAULT_Ki 1.55
-    #define  DEFAULT_Kd 114.83
+    #define  DEFAULT_Kp 19.74
+    #define  DEFAULT_Ki 1.32
+    #define  DEFAULT_Kd 73.75
 #endif // PIDTEMP
 
 //===========================================================================
@@ -508,7 +508,7 @@ const bool Z_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the logic
 
 #define HOMING_FEEDRATE {50*60, 50*60, 4*60, 0}  // set the homing speeds (mm/min)
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {88.88888888889,88.88888888889,1511.811023622047,88.57326053533955}  // Steps per MM For One and Two Up printers. (X, Y, Z, E)
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {88.89,88.89,1511.787215949354,101.396832988831}  // Steps per MM For One and Two Up printers. (X, Y, Z, E)
 #define DEFAULT_MAX_FEEDRATE          {500, 500, 5, 45}    // (mm/sec)    
 #define DEFAULT_MAX_ACCELERATION      {5000,5000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
 
